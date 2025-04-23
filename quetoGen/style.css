@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #563030;
+}
+.container{
+    background-color: #352531;
+    height: 80vh;
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    position: relative;
+    color:white;
+}
+h1{
+    position: absolute;
+    top: 1rem;
+}
+.random{
+    width: 75vh;
+    background: aliceblue;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 1rem;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    border: 1px solid seagreen;
+    background-color: transparent;
+    box-shadow: 0 2px 2px darkmagenta;
+}
+span.queto{
+    font-size: 18px;
+    /* text-shadow: 0 3px 3px BLACK; */
+    background: transparent;
+    padding: 6px;
+}
+.writer{
+    margin: 4px;
+    margin-left: 14rem;
+    font-size: 22px;
+    /* text-shadow: 0px 2px 2px bisque; */
+    font-style: italic;
+    text-decoration: underline;
+}
+button{
+    font-size: 18px;
+    position: relative;
+    top: 3rem;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 12px;
+    transition: all ease 0.1s;
+    cursor: pointer;
+    background-color: aqua;
+}
+button:hover{
+    background-color: rgb(14, 223, 153);
+    color: white;
+}
+button:active{
+    scale: 0.96;
+    color: red;
+    /* background-color: red; */
+}
+
+.speak{
+    position: relative;
+}
+
+.bolo{
+    cursor: pointer;
+    position: absolute;
+    right: 8rem;
+    bottom: 0.3rem;
+    color: darkturquoise;
+    font-size: 20px;
+    transition: all ease 0.1s;
+}
+.bolo:hover{
+    color: rgb(14, 223, 153);
+}
+.bolo:active{
+    color: red;
+}
